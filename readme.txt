@@ -103,10 +103,10 @@ WIDGET INSTALLATION PROCEDURE :
 = 1.0.1 =
 * Wordpress Social Facebook All In One widget 1.0.1 version fixes following bugs :
 
-	_ Accordion titles font size is too big : Now you can set titles font size ( in pt ) with "Titles Font Size" option .
-	_ Thumbnail images don't line up correctly : Now you can set thumbnail width and thumbnail padding left .
-	_ "redirect_uri’ isn’t allowed for that client_id" error message : Now register.php file processes signed Facebook data properly .
-	_ On Wordpress 3.3 installation, activating this plugin breaks drag and drop in widget admin section and user cannot add or remove widgets from a sidebar : Files paths and javascript functions are now fixed .
+	* Accordion titles font size is too big : Now you can set titles font size ( in pt ) with 'Titles Font Size' option .
+	* Thumbnail images don't line up correctly : Now you can set thumbnail width and thumbnail padding left .
+	* redirect_uri' isn't allowed for that client_id error message : Now register.php file processes signed Facebook data properly .
+	* On Wordpress 3.3 installation, activating this plugin breaks drag and drop in widget admin section and user cannot add or remove widgets from a sidebar : Files paths and javascript functions are now fixed .
 
 = 1.0.0 =
 * Wordpress Social Facebook All In One widget first version .
