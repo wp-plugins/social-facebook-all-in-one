@@ -24,7 +24,7 @@ that is to say :
 
 Wordpress Social Facebook All In One widget is distinguished by a prefix to avoid conflicts 
 in database Options table .
-Wordpress Social Facebook All In One widget is based on a jQuery accordion which is animated by the following effects , for now :
+Besides , Wordpress Social Facebook All In One widget is based on a jQuery accordion which is animated by the following effects , for now :
 
 * Bounceslide effect ( 12/15/2011 ) .
 
