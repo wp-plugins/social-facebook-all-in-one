@@ -24,7 +24,7 @@ that is to say :
 
 Wordpress Social Facebook All In One widget is distinguished by a prefix to avoid conflicts 
 in database Options table .
-Besides , Wordpress Social Facebook All In One widget is based on a jQuery accordion which is animated by the following effects , for now :
+Wordpress Social Facebook All In One widget is based on a jQuery accordion which is animated by the following effects , for now :
 
 * Bounceslide effect ( 12/15/2011 ) .
 
@@ -40,20 +40,20 @@ Besides , Wordpress Social Facebook All In One widget is based on a jQuery accor
 <b>Changelog :</b>
 
 
-* Wordpress Social Facebook All In One widget **[ 1.0.2 ]** version fixes following bug :
+* Wordpress Social Facebook All In One widget ** 1.0.2 ** version fixes following bug :
 
 	* ** require('/home/donimedi/donisocial/www/wp-load.php') [function.require]: failed to open stream: No such file or directory in /home/mysite/public_html/wp-content/plugins/social-facebook-all-in-one/social_facebook_all_in_one.php on line 211  :**
 		On line 211 , the following instruction require( '/home/donimedi/donisocial/www/wp-load.php' ); is now replaced by this instruction :
 		require( $_SERVER["DOCUMENT_ROOT"].'/wp-load.php' );
 
-* Wordpress Social Facebook All In One widget **[ 1.0.1 ]** version fixes following bugs :
+* Wordpress Social Facebook All In One widget ** 1.0.1 ** version fixes following bugs :
 
-	* **[ Accordion titles font size is too big ]**:  Now you can set titles font size ( in pt ) with "Titles Font Size" option .
-	* **[ Thumbnail images don't line up correctly ]** :  Now you can set thumbnail width and thumbnail padding left .
-	* **[ redirect_uri isn't allowed for that client_id error message ]** :  Now register.php file processes signed Facebook data properly .
-	* On Wordpress 3.3 installation, activating this plugin **[ breaks drag and drop in widget admin section and user cannot add or remove widgets from a sidebar ]** : Files paths and javascript functions are now fixed .
+	* ** Accordion titles font size is too big : ** Now you can set titles font size ( in pt ) with "Titles Font Size" option .
+	* ** Thumbnail images don't line up correctly : ** Now you can set thumbnail width and thumbnail padding left .
+	* ** redirect_uri isn't allowed for that client_id error message : ** Now register.php file processes signed Facebook data properly .
+	* On Wordpress 3.3 installation, activating this plugin **[ breaks drag and drop in widget admin section and user cannot add or remove widgets from a sidebar : ** Files paths and javascript functions are now fixed .
 
-* Version **[ 1.0.0 ]** : WordPress Social Facebook All In One widget first version release .
+* Version ** 1.0.0 ** : WordPress Social Facebook All In One widget first version release .
 
 
 
@@ -100,7 +100,7 @@ WIDGET INSTALLATION PROCEDURE :
 
 == Frequently Asked Questions ==
 
-**[ How to retrieve a Facebook App id and a Facebook App secret ? ]**
+** How to retrieve a Facebook App id and a Facebook App secret ? **
 
 Facebook App id and Facebook App secret are two parameters required to use Wordpress Social Facebook All In One widget .
 
@@ -109,7 +109,7 @@ More precisely, Facebook app id is a parameter , sometimes called Facebook clien
 Facebook app secret is a number , only known by you and Facebook , which is used to signed your Facebook data .
 
 
-**[ To retrieve a Facebook App id and a Facebook App secret  ]**, you can follow instructions of **[ our tutorial ]** , at the following address :
+** To retrieve a Facebook App id and a Facebook App secret  **, you can follow instructions of ** our tutorial ** , at the following address :
 
 [http://donisocial.donimedia-servicetique.net/?p=49](http://donisocial.donimedia-servicetique.net/?p=49
  "How to retrieve a Facebook App id and a Facebook App secret Tutorial")
