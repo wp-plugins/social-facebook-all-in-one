@@ -18,8 +18,7 @@ that is to say :
 
 * Facebook fans like box
 * Facebook Activity Feed
-* Facebook Recommandations
-* Facebook Registration
+
 
 
 Wordpress Social Facebook All In One widget is distinguished by a prefix to avoid conflicts 
