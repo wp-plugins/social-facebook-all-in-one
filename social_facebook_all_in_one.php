@@ -3,8 +3,8 @@
 /*
 Plugin Name: Social Facebook All In One
 Plugin URI: http://donisocial.donimedia-servicetique.net/
-Description: With this widget , you can display a customizable JQuery accordion which gathers Facebook social plugins together , on your Wordpress website . <a href="http://www.donimedia-servicetique.net/newsletters" title="Be well informed about our latest creations or updates">Newsletter</a> | <a href="http://www.donimedia-servicetique.net/support-forum-donimedia-servicetique-cms-extensions">Support Forum</a>
-Version: 1.0.1
+Description: With this widget , you can display a customizable jQuery accordion which gathers Facebook social plugins together , on your Wordpress website . <a href="http://www.donimedia-servicetique.net/newsletters" title="Be well informed about our latest creations or updates">Newsletter</a> | <a href="http://www.donimedia-servicetique.net/support-forum-donimedia-servicetique-cms-extensions">Support Forum</a>
+Version: 1.0.2
 Author: David DONISA
 Author URI: http://donisocial.donimedia-servicetique.net/
 */
@@ -208,7 +208,7 @@ function control(){
 
 
 		/** Make sure that the WordPress bootstrap has run before continuing. */
-		require( '/home/donimedi/donisocial/www/wp-load.php' );
+		require( $_SERVER["DOCUMENT_ROOT"].'/wp-load.php' );
 
 		global $data;
 

@@ -5,8 +5,8 @@ Plugin URI: http://donisocial.donimedia-servicetique.net/?p=69
 Tags:  Facebook, facebook like, facebook like box, fb, Like, likebox, connect, publish, Share, social media, social widget, registration, page, wall, feed, social, widget, wordpress, wordpress Facebook, wordpress facebook like, wordpress facebook like box, wordpress fb, wordpress Like, wordpress likebox, wordpress connect, wordpress publish, wordpress Share, wordpress social media, wordpress social widget, wordpress registration, wordpress page, wordpress wall, wordpress feed, wordpress social, wordpress widget
 Donate link: http://donisocial.donimedia-servicetique.net/
 Requires at least: 3.0.1
-Tested up to: 3.3
-Stable tag: 1.0.1
+Tested up to: 3.3.1
+Stable tag: 1.0.2
 	
 Customizable jQuery accordion for Wordpress which gathers Facebook social plugins together .
 
@@ -32,17 +32,30 @@ Besides , Wordpress Social Facebook All In One widget is based on a jQuery accor
 [Newsletter](http://www.donimedia-servicetique.net/newsletters "Newsletter about Wordpress Social Facebook All In One widget") | [Forum](http://www.donimedia-servicetique.net/support-forum-donimedia-servicetique-cms-extensions  "Forum about Wordpress Social Facebook All In One widget")
 
 
-* [LIVE DEMO](http://donisocial.donimedia-servicetique.net/?p=69 "Wordpress Social Facebook All In One widget Live Demo") 
+* [LIVE DEMO 1 ( For a Small Sidebar Wordpress website )](http://donisocial-small-sidebar.donimedia-servicetique.net/?p=53 "Wordpress Social Facebook All In One widget Live Demo for a Small Sidebar Wordpress website") 
+* [LIVE DEMO 2  ( For a Wide Sidebar Wordpress website )](http://donisocial.donimedia-servicetique.net/?p=69 "Wordpress Social Facebook All In One widget Live Demo for a Wide Sidebar Wordpress website") 
 
 
-Changelog :
 
-* Wordpress Social Facebook All In One widget 1.0.1 version fixes following bugs :
+<b>Changelog :</b>
 
-	* Accordion titles font size is too big : Now you can set titles font size ( in pt ) with 'Titles Font Size' option .
-	* Thumbnail images don't line up correctly : Now you can set thumbnail width and thumbnail padding left .
-	* redirect_uri' isn't allowed for that client_id error message : Now register.php file processes signed Facebook data properly .
-	* On Wordpress 3.3 installation, activating this plugin breaks drag and drop in widget admin section and user cannot add or remove widgets from a sidebar : Files paths and javascript functions are now fixed .
+
+* Wordpress Social Facebook All In One widget **[ 1.0.2 ]** version fixes following bug :
+
+	_ **[ require(/home/donimedi/donisocial/www/wp-load.php) [function.require]: failed to open stream: No such file or directory in /home/mysite/public_html/wp-content/plugins/social-facebook-all-in-one/social_facebook_all_in_one.php on line 211  :]**
+		On line 211 , the following instruction require( ‘/home/donimedi/donisocial/www/wp-load.php’ ); is now replaced by this instruction :
+		require( $_SERVER["DOCUMENT_ROOT"].’/wp-load.php’ );
+
+* Wordpress Social Facebook All In One widget **[ 1.0.1 ]** version fixes following bugs :
+
+	_ **[ Accordion titles font size is too big : ]** Now you can set titles font size ( in pt ) with "Titles Font Size" option .
+	_ **[ Thumbnail images don't line up correctly : ]** Now you can set thumbnail width and thumbnail padding left .
+	_ **[ "redirect_uri’ isn’t allowed for that client_id" error message : ]** Now register.php file processes signed Facebook data properly .
+	_ On Wordpress 3.3 installation, activating this plugin **[ breaks drag and drop in widget admin section and user cannot add or remove widgets from a sidebar : ]** Files paths and javascript functions are now fixed .
+
+* Version **[ 1.0.0 ]** : WordPress Social Facebook All In One widget first version release .
+
+
 
 
 
@@ -53,7 +66,7 @@ Changelog :
 
 == Installation ==	
 
-[DOCUMENTATION DOWNLOAD](http://donisocial.donimedia-servicetique.net/?wpfb_dl=2 "DOCUMENTATION DOWNLOAD") 
+[Wordpress Social Facebook All In One DOCUMENTATION](http://donisocial.donimedia-servicetique.net/?p=113 "Wordpress Social Facebook All In One DOCUMENTATION") 
 
 WIDGET INSTALLATION PROCEDURE :
  
@@ -87,6 +100,21 @@ WIDGET INSTALLATION PROCEDURE :
 
 == Frequently Asked Questions ==
 
+**[ How to retrieve a Facebook App id and a Facebook App secret ? ]**
+
+Facebook App id and Facebook App secret are two parameters required to use Wordpress Social Facebook All In One widget .
+
+More precisely, Facebook app id is a parameter , sometimes called Facebook client id, required to use Facebook applications , including registration box .
+
+Facebook app secret is a number , only known by you and Facebook , which is used to signed your Facebook data .
+
+
+**[ To retrieve a Facebook App id and a Facebook App secret  ]**, you can follow instructions of **[ our tutorial ]** , at the following address :
+
+[http://donisocial.donimedia-servicetique.net/?p=49](http://donisocial.donimedia-servicetique.net/?p=49
+ "How to retrieve a Facebook App id and a Facebook App secret Tutorial")
+
+
 
 == Screenshots ==
 
@@ -94,19 +122,24 @@ WIDGET INSTALLATION PROCEDURE :
 2. Wordpress Social Facebook All In One widget admin panel - General Settings section -
 3. Wordpress Social Facebook All In One widget admin panel - Social Containers Settings section -
 4. Wordpress Social Facebook All In One widget admin panel - Like Box Settings section -
-5. Wordpress Social Facebook All In One widget admin panel - Registration Box Settings section -
-6. Wordpress Social Facebook All In One widget admin panel - Footer Like Button Settings section -
-7. Wordpress Social Facebook All In One widget admin panel - Credit link for DoniSocial section -
+5. Wordpress Social Facebook All In One widget admin panel - Registration Box Settings section - , Wordpress Social Facebook All In One widget admin panel - Footer Like Button Settings section - , Wordpress Social Facebook All In One widget admin panel - Credit link for DoniSocial section -
 
 == Changelog ==
+
+= 1.0.2 =
+* Wordpress Social Facebook All In One widget 1.0.2 version fixes following bug :
+
+	_ require(/home/donimedi/donisocial/www/wp-load.php) [function.require]: failed to open stream: No such file or directory in /home/mysite/public_html/wp-content/plugins/social-facebook-all-in-one/social_facebook_all_in_one.php on line 211 .
+		On line 211 , the following instruction require( '/home/donimedi/donisocial/www/wp-load.php' ); is now replaced by this instruction :
+		require( $_SERVER["DOCUMENT_ROOT"].'/wp-load.php' );
 
 = 1.0.1 =
 * Wordpress Social Facebook All In One widget 1.0.1 version fixes following bugs :
 
-	* Accordion titles font size is too big : Now you can set titles font size ( in pt ) with 'Titles Font Size' option .
-	* Thumbnail images don't line up correctly : Now you can set thumbnail width and thumbnail padding left .
-	* redirect_uri' isn't allowed for that client_id error message : Now register.php file processes signed Facebook data properly .
-	* On Wordpress 3.3 installation, activating this plugin breaks drag and drop in widget admin section and user cannot add or remove widgets from a sidebar : Files paths and javascript functions are now fixed .
+	_ Accordion titles font size is too big : Now you can set titles font size ( in pt ) with "Titles Font Size" option .
+	_ Thumbnail images don't line up correctly : Now you can set thumbnail width and thumbnail padding left .
+	_ "redirect_uri’ isn’t allowed for that client_id" error message : Now register.php file processes signed Facebook data properly .
+	_ On Wordpress 3.3 installation, activating this plugin breaks drag and drop in widget admin section and user cannot add or remove widgets from a sidebar : Files paths and javascript functions are now fixed .
 
 = 1.0.0 =
 * Wordpress Social Facebook All In One widget first version .
