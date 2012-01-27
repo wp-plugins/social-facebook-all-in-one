@@ -32,8 +32,8 @@ Besides , Wordpress Social Facebook All In One widget is based on a jQuery accor
 [Newsletter](http://www.donimedia-servicetique.net/newsletters "Newsletter about Wordpress Social Facebook All In One widget") | [Forum](http://www.donimedia-servicetique.net/support-forum-donimedia-servicetique-cms-extensions  "Forum about Wordpress Social Facebook All In One widget")
 
 
-* [LIVE DEMO 1 ( For a Small Sidebar Wordpress website )](http://donisocial-small-sidebar.donimedia-servicetique.net/?p=53 "Wordpress Social Facebook All In One widget Live Demo for a Small Sidebar Wordpress website") 
-* [LIVE DEMO 2  ( For a Wide Sidebar Wordpress website )](http://donisocial.donimedia-servicetique.net/?p=69 "Wordpress Social Facebook All In One widget Live Demo for a Wide Sidebar Wordpress website") 
+* [LIVE DEMO 1 ( For a Wide Sidebar Wordpress website )](http://donisocial.donimedia-servicetique.net/?p=69 "Wordpress Social Facebook All In One widget Live Demo for a Wide Sidebar Wordpress website") 
+* [LIVE DEMO 2 ( For a Small Sidebar Wordpress website )](http://donisocial-small-sidebar.donimedia-servicetique.net/?p=53 "Wordpress Social Facebook All In One widget Live Demo for a Small Sidebar Wordpress website") 
 
 
 
